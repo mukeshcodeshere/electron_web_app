@@ -1,11 +1,21 @@
 {% extends "base.html" %}
 
+{% block title %}Careers{% endblock %}
+
 {% block content %}
-<section>
-    <h1>Join Our Team</h1>
-    <p>We're always looking for talented individuals to push the boundaries of technology.</p>
+<section class="careers">
+    <h1>Career Opportunities</h1>
     <div class="job-listings">
-        <!-- Add job listings here -->
+        <div class="job-card">
+            <h3>Investment Analyst</h3>
+            <p>Join our investment team to analyze market opportunities</p>
+            <button class="apply-btn">Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>Technology Developer</h3>
+            <p>Build next-generation financial technology solutions</p>
+            <button class="apply-btn">Apply Now</button>
+        </div>
     </div>
 </section>
 {% endblock %}

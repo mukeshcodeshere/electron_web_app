@@ -1,8 +1,28 @@
 {% extends "base.html" %}
 
+{% block title %}Home{% endblock %}
+
 {% block content %}
-<section>
-    <h1>Innovative Technology Solutions</h1>
-    <p>Transforming businesses through cutting-edge technology and strategic innovation.</p>
+<section class="hero">
+    <h1>Welcome to Electron</h1>
+    <p>A Premier Integrated Financial Services Platform</p>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>Asset Management</h3>
+            <p>Comprehensive investment strategies for optimal returns</p>
+        </div>
+        <div class="service-card">
+            <h3>Private Equity</h3>
+            <p>Strategic investments in high-growth opportunities</p>
+        </div>
+        <div class="service-card">
+            <h3>Wealth Management</h3>
+            <p>Personalized financial planning solutions</p>
+        </div>
+    </div>
 </section>
 {% endblock %}
